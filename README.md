@@ -8,7 +8,7 @@ rm oracle-database-xe-18.4.x86_64.tar.gz
 
 docker build -t oracle-18-4-0-xe:latest -f Dockerfile.xe .
 
-# To Run
+## To Run after build image
 mkdir -p ${HOST_DIR}
 
 chmod -R 777 ${HOST_DIR}
